@@ -1,0 +1,27 @@
+baseURL = 'https://www.menuiserie-boisetdesign.fr'
+languageCode = 'fr-FR'
+title = 'Menuiserie Bois et Design'
+theme = "showcase"
+Paginate = 1000
+googleAnalytics = ""
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+# this setting should always be set to false, otherwise it will break the section navigation bar
+pluralizelisttitles = false
+
+[params]
+  author = "Bois et Design"
+  description = ""
+  message = ""
+  hideAutoMenu = false
+
+  # Pagination options
+  paginate = 6
+  multipage = true
+
+  # Dark mode
+  darkMode = true
+
+[[menu.main]]
+  name = "Contact"
+  url = "/page/contact"
